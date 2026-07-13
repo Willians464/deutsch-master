@@ -1,0 +1,14 @@
+
+name: Deploy Deutsch Master
+
+on:
+  push:
+    branches: ['main']
+
+jobs:
+  deploy:
+    type: deploy
+    name: Deploy web app
+    environment: production
+    params:
+      prod: true
