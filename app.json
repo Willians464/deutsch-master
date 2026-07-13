@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Deutsch Master",
+    "slug": "deutsch-master",
+    "owner": "willians464s-team",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0D0D0D",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.deutschmaster.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0D0D0D"
+      },
+      "package": "com.deutschmaster.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "name": "Deutsch Master",
+      "shortName": "Deutsch"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "679d8747-9a0f-4b74-a196-46878df9e8be"
+      }
+    }
+  }
+}
